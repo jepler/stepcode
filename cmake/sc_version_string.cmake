@@ -47,37 +47,24 @@ string(REPLACE "\n" "" GIT_COMMIT_ID ${GIT_COMMIT_ID})
 #once cmake_minimum_required is >= 2.8.11, we can use TIMESTAMP:
 #string(TIMESTAMP date_time_string)
 
-if(UNIX)
-  execute_process(COMMAND date "+%d %b %Y %H:%M" OUTPUT_VARIABLE date_time_string OUTPUT_STRIP_TRAILING_WHITESPACE)
-elseif(WIN32)
-  execute_process(COMMAND cmd /c date /t OUTPUT_VARIABLE currentDate OUTPUT_STRIP_TRAILING_WHITESPACE)
-  execute_process(COMMAND cmd /c time /t OUTPUT_VARIABLE currentTime OUTPUT_STRIP_TRAILING_WHITESPACE)
-  set (date_time_string "${currentDate} ${currentTime}")
-else()
-  set(date_time_string "\" __DATE__ \" \" __TIME__ \" ")
-  if(NOT SC_IS_SUBBUILD)
-    message(STATUS "Unknown platform - using date from preprocessor")
-  endif(NOT SC_IS_SUBBUILD)
-endif()
-
 set(header_string "/* sc_version_string.h - written by cmake. Changes will be lost! */\n"
   "#ifndef SC_VERSION_STRING\n"
   "#define SC_VERSION_STRING\n\n"
   "/*\n** The git commit id looks like \"test-1-g5e1fb47\", where test is the\n"
   "** name of the last tagged git revision, 1 is the number of commits since that tag,\n"
   "** 'g' is unknown, and 5e1fb47 is the first 7 chars of the git sha1 commit id.\n"
-  "** timestamp is created from date/time commands on known platforms, and uses\n"
-  "** preprocessor macros elsewhere.\n*/\n\n"
+  "*/\n\n"
   "static char sc_version[512] = {\n"
-  "    \"git commit id: ${GIT_COMMIT_ID}, build timestamp ${date_time_string}\"\n"
+  "    \"git commit id: ${GIT_COMMIT_ID}\"\n"
   "}\;\n\n"
   "#endif\n"
  )
 
 #don't update the file unless somethig changed
-file(WRITE ${SC_VERSION_HEADER}.tmp ${header_string})
-execute_process(COMMAND ${CMAKE_COMMAND} -E copy_if_different ${SC_VERSION_HEADER}.tmp ${SC_VERSION_HEADER})
-execute_process(COMMAND ${CMAKE_COMMAND} -E remove ${SC_VERSION_HEADER}.tmp)
+string(RANDOM tmpsuffix)
+file(WRITE ${SC_VERSION_HEADER}.${tmpsuffix} ${header_string})
+execute_process(COMMAND ${CMAKE_COMMAND} -E copy_if_different ${SC_VERSION_HEADER}.${tmpsuffix} ${SC_VERSION_HEADER})
+execute_process(COMMAND ${CMAKE_COMMAND} -E remove ${SC_VERSION_HEADER}.${tmpsuffix})
 
 if(NOT SC_IS_SUBBUILD)
   message("-- sc_version_string.h is up-to-date.")
