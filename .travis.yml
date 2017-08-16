@@ -6,6 +6,3 @@ script: mkdir build && cd build && cmake .. -DSC_ENABLE_TESTING=ON && make -j3 &
 os:
   - linux
   - osx
-matrix:
-  allow_failures:
-    - os: osx
