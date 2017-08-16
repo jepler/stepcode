@@ -221,7 +221,7 @@ instanceID sectionReader::readInstanceNumber() {
             _error->UserMsg( "A very large instance ID encountered" );
             _error->DetailMsg( errorMsg.str() );
 
-            delete buffer;
+            delete [] buffer;
             return 0;    
         }
 
