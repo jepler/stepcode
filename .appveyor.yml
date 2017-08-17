@@ -50,7 +50,7 @@ build_script:
 # /toolsversion:14.0 /p:PlatformToolset=v140
 
 test_script:
-  - cmd: echo Running CTest...
+  - cmd: echo inverse_attr3 test 100x
   - cmd: cd c:\projects\STEPcode\build
   - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
   - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
@@ -62,6 +62,7 @@ test_script:
   - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
   - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
   - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: echo 10
   - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
   - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
   - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
@@ -72,7 +73,96 @@ test_script:
   - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
   - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
   - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: echo 20
   - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: echo 30
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: echo 40
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: echo 50
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: echo 60
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: echo 70
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: echo 80
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: echo 90
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: echo 100
+  - cmd: echo done
 
 # - cmd: grep -niB20 "Test Failed" Testing/Temporary/LastTest.log
 
