@@ -2,10 +2,6 @@ version: '{build}'
 
 # for Appveyor CI (windows)
 
-branches:
-  only:
-    - master
-
 os: Windows Server 2012 R2
 
 clone_folder: c:\projects\STEPcode
@@ -46,9 +42,8 @@ build_script:
     cd build
     cmake -version
     grep --version
-    cmake .. -DSC_ENABLE_TESTING=ON -G"$env:GENERATOR" -DSC_BUILD_SCHEMAS="ifc2x3;ap214e3;ap209"
-    echo "filtering build output with grep"
-    cmake --build . --config Debug | grep -ve "CMake does not need to re-run because" -e "ZERO_CHECK.ZERO_CHECK" -e "^  Creating directory"
+    cmake .. -DSC_ENABLE_TESTING=ON -G"$env:GENERATOR" -DSC_BUILD_SCHEMAS="ifc2x3"
+    cmake --build . --config Debug --target tst_inverse_attr3
 
 #msbuld seems to provide no benefits, and I can't filter its output...
 #msbuild SC.sln /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll" /p:Configuration=Debug /p:Platform=x64
@@ -57,7 +52,27 @@ build_script:
 test_script:
   - cmd: echo Running CTest...
   - cmd: cd c:\projects\STEPcode\build
-  - cmd: ctest -j1 . -C Debug --output-on-failure
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
 
 # - cmd: grep -niB20 "Test Failed" Testing/Temporary/LastTest.log
 
