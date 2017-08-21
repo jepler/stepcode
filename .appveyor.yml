@@ -53,107 +53,106 @@ test_script:
   - cmd: cd c:\projects\STEPcode\build
   - cmd: echo excluding test_inverse_attr3, which hangs
   - cmd: ctest -j1 . -C Debug -E test_inverse_attr3 --output-on-failure
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
-  - cmd: ctest -j1 . -C Debug -G test_inverse_attr3
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
+  - cmd: bin\tst_inverse_attr3 ..\test\p21\test_inverse_attr.p21
 
 # - cmd: grep -niB20 "Test Failed" Testing/Temporary/LastTest.log
 
